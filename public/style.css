@@ -129,3 +129,6 @@ nav a.active {
   display: block;
   word-break: break-all;
 }
+
+/* Account entry point */
+.account-menu{position:relative;flex:0 0 auto;color:var(--c)}.account-menu summary{list-style:none;display:grid;place-items:center;width:42px;height:42px;border:1px solid var(--l);border-radius:50%;cursor:pointer;color:#c5ccd5;transition:border-color .18s ease,color .18s ease}.account-menu summary::-webkit-details-marker{display:none}.account-menu summary:hover,.account-menu[open] summary{border-color:var(--g);color:var(--g)}.account-menu summary:focus-visible{outline:2px solid var(--g);outline-offset:3px}.account-menu svg{width:20px;height:20px;fill:none;stroke:currentColor;stroke-width:1.7;stroke-linecap:round;stroke-linejoin:round}.account-popover{position:absolute;z-index:10;top:calc(100% + 12px);right:0;width:max-content;max-width:min(260px,80vw);padding:12px 14px;border:1px solid var(--l);border-radius:10px;background:var(--p);color:var(--m);font-size:13px;line-height:1.5;box-shadow:0 12px 30px #0005}
